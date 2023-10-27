@@ -1,6 +1,9 @@
 {"users": [
     
   ],
+  "tasks": [
+    
+  ],
   "posts": [
     { "id": 1, "title": "json-server0915", "author": "typicode" }
   ],
