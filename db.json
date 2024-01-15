@@ -1,14 +1,276 @@
-{"users": [
-    
+{
+  "users": [
+    {
+      "email": "testadmin@xxxlive.mail",
+      "password": "$2a$10$33k8WCHqXrlYFiHLTwJW7eddrWBQN1JE.ZAl7yvX4d.tsqSUilU5K",
+      "role": "admin",
+      "avatar": "大頭照網址",
+      "follows_artists": [],
+      "favorite_Concerts": [],
+      "id": 1
+    },
+    {
+      "email": "testuser@xxxgmail.com",
+      "password": "$2a$10$hRriT87soEtUCcD243T4nOvlihdryoKelWvT.AgVU46UW7b6czMpq",
+      "role": "user",
+      "avatar": "大頭照網址",
+      "follows_artists": [],
+      "favorite_Concerts": [],
+      "id": 2
+    }
   ],
-  "tasks": [
-    
+  "artists": [
+    {
+      "content": {
+        "name": "Taylor Swift",
+        "cover": "圖片網址",
+        "description": "是美國著名流行樂歌手,以深情歌曲和才華洋溢的創作聞名。她的音樂風格多樣,屢獲格萊美獎肯定。斯威夫特以堅定的個性和社交媒體影響力成為全球流行文化的重要人物。",
+        "hidden": false,
+        "deeds": [
+          "日本74屆《NHK紅白歌合戰》",
+          "アイドル youtube點擊破4億次",
+          "勇者  串流破1億次"
+        ],
+        "follows": 123456,
+        "concerts": []
+      },
+      "userId": 1,
+      "id": 1
+    }
   ],
-  "posts": [
-    { "id": 1, "title": "json-server0915", "author": "typicode" }
+  "concerts": [
+    {
+      "content": {
+        "title": "紅髮艾德世界巡迴演唱會高雄站 Ed Sheeran +-=÷× 2024 TOUR",
+        "cover": "https://imgs2.utiki.com.tw/Data/KHAM/Images/UTK2401/P0AFLNJ8_Large.JPG?v=202401120957",
+        "favorite": 12345,
+        "start_date": ["2024-03-16", "2024-03-17"],
+        "location": "台北 Legacy Taipei",
+        "address": "新北市新莊區新北大道四段3號8樓",
+        "hidden": false,
+        "exposeStart": "2024-1-1T18:00:00+08:00",
+        "exposeEnd": "2024-03-16T00:00:00+08:00",
+        "ticket-category": "搖滾站席NT$4,800",
+        "seating-type": [4800, 3800, 2800, 2300, 2000],
+        "organizer": ["相信音樂", "用心音樂"],
+        "producter": "必應創造"
+      },
+      "userId": 1,
+      "artistId": 1,
+      "id": 1
+    },
+    {
+      "content": {
+        "title": "YOASOBI ASIA TOUR 2023-2024 LIVE IN TAIPEI",
+        "cover": "https://static.ticketplus.com.tw/event/c752489ad3e922cbd8943deccdd22696/picBigBanner_1698202930624.jpeg",
+        "start_date": ["2024-01-21"],
+        "location": "台灣 ???",
+        "address": "台北市???",
+        "hidden": false,
+        "exposeStart": "2023-10-25T18:00:00+08:00",
+        "exposeEnd": "2024-1-22T00:00:00+08:00",
+        "ticket-category": "搖滾站席NT$4,800",
+        "seating-type": [4800, 3800, 2800, 2300, 2000],
+        "organizer": ["???"],
+        "producter": "XXX"
+      },
+      "userId": 1,
+      "artistId": 2,
+      "id": 2
+    }
+  ],
+  "areas": [
+    {
+      "content": {
+        "title": "台北 Legacy Taipei",
+        "picture": "",
+        "map": "",
+        "Transportation": [
+          {
+            "MRT": [
+              "可搭乘捷運「松山新店線(3號線)」至台北小巨蛋站後,2號出口即達。",
+              "如搭乘捷運其他路線,可至臺北捷運公司網站【路網圖及各站資訊】中查詢轉乘資訊。"
+            ]
+          },
+          {
+            "Bus": [
+              {
+                "title": "南京敦化路口(小巨蛋)[向北]",
+                "content": "可搭乘33、262、262區、275、277、556、630、672、688、707、902、903、905、905副、906、909、913、967、967副、967直、敦化幹線、5350。"
+              },
+              {
+                "title": "南京敦化路口(小巨蛋)[向南]",
+                "content": "可搭乘33、262、262區、275、277、556、630、 688、707、902、903、905、905副、906、909、913、967、967副、967直、敦化幹線、5350。"
+              },
+              {
+                "title": "南京敦化路口(小巨蛋)[向東]",
+                "content": "可搭乘46、248、279、282、288、306、306區、307、307西藏三民、605快、652、668、672、675、711、903、承德幹線、南京幹線、紅25、紅25 區、棕10、1802、1803、1815。"
+              },
+              {
+                "title": "南京敦化路口(小巨蛋)[向北]",
+                "content": "待補充"
+              }
+            ]
+          }
+        ],
+        "comments": [
+          {
+            "title": "這個位置離音響太近了，左耳好痛QQ",
+            "created-Time": "2023/05/01"
+          },
+          {
+            "title": "這個位置離音響太近了，這個位置離音響太近了，這個位置離音響太近了，左耳好痛QQ",
+            "created-Time": "2023/05/01"
+          },
+          {
+            "title": "這個位置被遮住，看不太清楚台上",
+            "created-Time": "2023/04/16"
+          },
+          {
+            "title": "爛位子",
+            "created-Time": "2023/04/16"
+          }
+        ]
+      },
+      "userId": 1,
+      "concertId": 1,
+      "id": 1
+    },
+    {
+      "content": {
+        "title": "台灣 ???",
+        "picture": "",
+        "map": "",
+        "Transportation": [
+          {
+            "MRT": [
+              "可搭乘捷運「松山新店線(3號線)」至台北小巨蛋站後,2號出口即達。",
+              "如搭乘捷運其他路線,可至臺北捷運公司網站【路網圖及各站資訊】中查詢轉乘資訊。"
+            ]
+          },
+          {
+            "Bus": [
+              {
+                "title": "南京敦化路口(小巨蛋)[向北]",
+                "content": "可搭乘33、262、262區、275、277、556、630、672、688、707、902、903、905、905副、906、909、913、967、967副、967直、敦化幹線、5350。"
+              },
+              {
+                "title": "南京敦化路口(小巨蛋)[向南]",
+                "content": "可搭乘33、262、262區、275、277、556、630、 688、707、902、903、905、905副、906、909、913、967、967副、967直、敦化幹線、5350。"
+              },
+              {
+                "title": "南京敦化路口(小巨蛋)[向東]",
+                "content": "可搭乘46、248、279、282、288、306、306區、307、307西藏三民、605快、652、668、672、675、711、903、承德幹線、南京幹線、紅25、紅25 區、棕10、1802、1803、1815。"
+              },
+              {
+                "title": "南京敦化路口(小巨蛋)[向北]",
+                "content": "待補充"
+              }
+            ]
+          }
+        ],
+        "comments": [
+          {
+            "title": "這個位置離音響太近了，左耳好痛QQ",
+            "created-Time": "2023/05/01"
+          },
+          {
+            "title": "這個位置離音響太近了，這個位置離音響太近了，這個位置離音響太近了，左耳好痛QQ",
+            "created-Time": "2023/05/01"
+          },
+          {
+            "title": "這個位置被遮住，看不太清楚台上",
+            "created-Time": "2023/04/16"
+          },
+          {
+            "title": "爛位子",
+            "created-Time": "2023/04/16"
+          }
+        ]
+      },
+      "userId": 1,
+      "concertId": 2,
+      "id": 2
+    }
+  ],
+  "songs": [
+    {
+      "content": {
+        "title": "紅髮艾德世界巡迴演唱會高雄站 Ed Sheeran +-=÷× 2024 TOUR",
+        "list": [
+          {
+            "title": "Cruel Summer",
+            "YT_Link": "https://youtube.xxxx",
+            "good": 99,
+            "wrong": 0,
+            "lyrics": "...",
+            "cover": "演唱會圖片網址"
+          },
+          {
+            "title": "...Ready For It?",
+            "YT_Link": "https://youtube.xxxx",
+            "good": 85,
+            "wrong": 3,
+            "lyrics": "...",
+            "cover": "演唱會圖片網址"
+          },
+          {
+            "title": "Lover",
+            "YT_Link": "https://youtube.xxxx",
+            "good": 57,
+            "wrong": 0,
+            "lyrics": "...",
+            "cover": "演唱會圖片網址"
+          },
+          {
+            "title": "Love Story",
+            "YT_Link": "https://youtube.xxxx",
+            "good": 37,
+            "wrong": 10,
+            "lyrics": "...",
+            "cover": "演唱會圖片網址"
+          },
+          {
+            "title": "Shake It Off",
+            "YT_Link": "https://youtube.xxxx",
+            "good": 18,
+            "wrong": 9,
+            "lyrics": "...",
+            "cover": "演唱會圖片網址"
+          }
+        ]
+      },
+      "userId": 1,
+      "artistId": 1,
+      "concertId": 1,
+      "id": 1
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+    {
+      "content": {
+        "title": "台北 Legacy Taipei",
+        "lists": [
+          {
+            "title": "這個位置離音響太近了，左耳好痛QQ",
+            "created-Time": "2023/05/01"
+          },
+          {
+            "title": "這個位置離音響太近了，這個位置離音響太近了，這個位置離音響太近了，左耳好痛QQ",
+            "created-Time": "2023/05/01"
+          },
+          {
+            "title": "這個位置被遮住，看不太清楚台上",
+            "created-Time": "2023/04/16"
+          },
+          {
+            "title": "爛位子",
+            "created-Time": "2023/04/16"
+          }
+        ]
+      },
+      "areaId": 1,
+      "id": 1
+    }
+  ]
 }
